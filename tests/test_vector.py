@@ -28,6 +28,9 @@ class VectorTests(unittest.TestCase):
         self.assertLess(result, self.v3)
         # Test greater
         self.assertGreater(self.v3, result)
+        self.assertNotEqual(self.v3, "Jan")
+        # Invalid comparation
+        self.assertRaises(TypeError, self.v3, "Jan")
 
     def test_call(self) -> None:
         result = self.v1()
