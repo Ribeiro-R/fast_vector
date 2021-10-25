@@ -43,7 +43,12 @@
         "editor.defaultFormatter": "ms-python.python"
     },
     // Other extensions
-    "formatContextMenu.closeAfterSave": true
+    "formatContextMenu.closeAfterSave": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
 
 // {
