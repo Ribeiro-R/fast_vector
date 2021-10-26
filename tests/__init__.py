@@ -1,4 +1,4 @@
-'''Test suite.'''
+"""Test suite."""
 import unittest
 
 from .test_vector import VectorTests  # noqa: F401
